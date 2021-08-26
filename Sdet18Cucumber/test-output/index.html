@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Nitheesha\AppData\Local\Temp\testng-eclipse-109852546\testng-customsuite.xml</span>
+                    <span>C:\Users\Nitheesha\AppData\Local\Temp\testng-eclipse--2088283837\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                    <span class="method-stats">5 methods, 3 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,7 +104,17 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testRunner.Runner" hash-for-method="runScenario(&quot;As a user I will enter invalid username and password user should not navigate to home page&quot;, &quot;Optio...)">runScenario("As a user I will enter invalid username and password user should not navigate to home page", "Optio...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testRunner.Runner" hash-for-method="runScenario(&quot;As a user I want to create multiple organization and save and verify&quot;, &quot;Optional[Organization modul...)">runScenario("As a user I want to create multiple organization and save and verify", "Optional[Organization modul...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testRunner.Runner" hash-for-method="runScenario(&quot;As a user I want to create multiple organization and save and verify&quot;, &quot;Optional[Organization modul...)">runScenario("As a user I want to create multiple organization and save and verify", "Optional[Organization modul...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testRunner.Runner" hash-for-method="runScenario(&quot;As a user I want create a new contact&quot;, &quot;Optional[conatct module]&quot;)">runScenario("As a user I want create a new contact", "Optional[conatct module]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -118,12 +128,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testRunner.Runner" hash-for-method="runScenario(&quot;As a user I will enter invalid username and valid password home page should not display&quot;, &quot;Optional...)">runScenario("As a user I will enter invalid username and valid password home page should not display", "Optional...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testRunner.Runner" hash-for-method="runScenario(&quot;As a user I will enter invalid username and password user should not navigate to home page&quot;, &quot;Optio...)">runScenario("As a user I will enter invalid username and password user should not navigate to home page", "Optio...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testRunner.Runner" hash-for-method="runScenario(&quot;As a valid user I will provide valid credentials for login&quot;, &quot;Optional[User login module]&quot;)">runScenario("As a valid user I will provide valid credentials for login", "Optional[User login module]")</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testRunner.Runner" hash-for-method="runScenario(&quot;As a user I will enter invalid username and valid password home page should not display&quot;, &quot;Optional...)">runScenario("As a user I will enter invalid username and valid password home page should not display", "Optional...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -146,15 +156,241 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;As a user I will enter invalid username and password user should not navigate to home page&quot;, &quot;Optio...)">
-                  </a> <!-- runScenario("As a user I will enter invalid username and password user should not navigate to home page", "Optio...) -->
+                  <a name="runScenario(&quot;As a user I want to create multiple organization and save and verify&quot;, &quot;Optional[Organization modul...)">
+                  </a> <!-- runScenario("As a user I want to create multiple organization and save and verify", "Optional[Organization modul...) -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("As a user I will enter invalid username and password user should not navigate to home page", "Optional[User login module]")</span>
-                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;validate 123&apos; is undefined.
-You can implement this step using the snippet(s) below:
+                  <span class="parameters">("As a user I want to create multiple organization and save and verify", "Optional[Organization module]")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;As a user I will launch browser&apos; and 7 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
 
-@Then(&quot;validate {int}&quot;)
-public void validate(Integer int1) {
+@Given(&quot;As a user I will launch browser&quot;)
+public void as_a_user_i_will_launch_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;I will enter url&quot;)
+public void i_will_enter_url() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;login page is displayed I will enter username {string}  and password {string}&quot;)
+public void login_page_is_displayed_i_will_enter_username_and_password(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;In home page click on organization&quot;)
+public void in_home_page_click_on_organization() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;organization page is displayed click on create organization&quot;)
+public void organization_page_is_displayed_click_on_create_organization() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;In organization page enter organization name {string} and organization email {string}&quot;)
+public void in_organization_page_enter_organization_name_and_organization_email(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;click on save&quot;)
+public void click_on_save() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;Verify that organization name {string} and email should be {string}&quot;)
+public void verify_that_organization_name_and_email_should_be(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:118)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:114)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;As a user I want to create multiple organization and save and verify&quot;, &quot;Optional[Organization modul...)">
+                  </a> <!-- runScenario("As a user I want to create multiple organization and save and verify", "Optional[Organization modul...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("As a user I want to create multiple organization and save and verify", "Optional[Organization module]")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;As a user I will launch browser&apos; and 7 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;As a user I will launch browser&quot;)
+public void as_a_user_i_will_launch_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;I will enter url&quot;)
+public void i_will_enter_url() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;login page is displayed I will enter username {string}  and password {string}&quot;)
+public void login_page_is_displayed_i_will_enter_username_and_password(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;In home page click on organization&quot;)
+public void in_home_page_click_on_organization() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;organization page is displayed click on create organization&quot;)
+public void organization_page_is_displayed_click_on_create_organization() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;In organization page enter organization name {string} and organization email {string}&quot;)
+public void in_organization_page_enter_organization_name_and_organization_email(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;click on save&quot;)
+public void click_on_save() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;Verify that organization name {string} and email should be {string}&quot;)
+public void verify_that_organization_name_and_email_should_be(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:118)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:114)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;As a user I want create a new contact&quot;, &quot;Optional[conatct module]&quot;)">
+                  </a> <!-- runScenario("As a user I want create a new contact", "Optional[conatct module]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("As a user I want create a new contact", "Optional[conatct module]")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;I will Launch browser&apos; and 8 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;I will Launch browser&quot;)
+public void i_will_launch_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;enter the url&quot;)
+public void enter_the_url() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;login page is dispalyed I will Enter username {string} and password {string}&quot;)
+public void login_page_is_dispalyed_i_will_enter_username_and_password(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;home page is displayed click on contact&quot;)
+public void home_page_is_displayed_click_on_contact() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;click on create contact&quot;)
+public void click_on_create_contact() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;enter contact name conatct email and contact phone&quot;)
+public void enter_contact_name_conatct_email_and_contact_phone(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or
+    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;click on save&quot;)
+public void click_on_save() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;verify contact name conatct email and conatct phone&quot;)
+public void verify_contact_name_conatct_email_and_conatct_phone() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;close the browser&quot;)
+public void close_the_browser() {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
@@ -209,20 +445,20 @@ public void validate(Integer int1) {
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;As a user I will enter invalid username and valid password home page should not display&quot;, &quot;Optional...)">
-                  </a> <!-- runScenario("As a user I will enter invalid username and valid password home page should not display", "Optional...) -->
+                  <a name="runScenario(&quot;As a user I will enter invalid username and password user should not navigate to home page&quot;, &quot;Optio...)">
+                  </a> <!-- runScenario("As a user I will enter invalid username and password user should not navigate to home page", "Optio...) -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("As a user I will enter invalid username and valid password home page should not display", "Optional[User login module]")</span>
+                  <span class="parameters">("As a user I will enter invalid username and password user should not navigate to home page", "Optional[User login module]")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;As a valid user I will provide valid credentials for login&quot;, &quot;Optional[User login module]&quot;)">
-                  </a> <!-- runScenario("As a valid user I will provide valid credentials for login", "Optional[User login module]") -->
+                  <a name="runScenario(&quot;As a user I will enter invalid username and valid password home page should not display&quot;, &quot;Optional...)">
+                  </a> <!-- runScenario("As a user I will enter invalid username and valid password home page should not display", "Optional...) -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("As a valid user I will provide valid credentials for login", "Optional[User login module]")</span>
+                  <span class="parameters">("As a user I will enter invalid username and valid password home page should not display", "Optional[User login module]")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -232,7 +468,7 @@ public void validate(Integer int1) {
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Nitheesha\AppData\Local\Temp\testng-eclipse-109852546\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Nitheesha\AppData\Local\Temp\testng-eclipse--2088283837\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -289,24 +525,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'testRunner.Runner')
-data.setCell(0, 3, 705);
+data.setCell(0, 3, 14790);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'testRunner.Runner')
-data.setCell(1, 3, 189);
+data.setCell(1, 3, 13625);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'testRunner.Runner')
-data.setCell(2, 3, 65);
+data.setCell(2, 3, 947);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'testRunner.Runner')
+data.setCell(3, 3, 53);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'testRunner.Runner')
+data.setCell(4, 3, 40);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 959 ms</span>
+              <span class="suite-total-time">Total running time: 29 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -338,22 +582,34 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("As a valid user I will provide valid credentials for login", "Optional[User login module]")</span>
-                <span class="method-start">1159 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("As a user I want create a new contact", "Optional[conatct module]")</span>
+                <span class="method-start">2466 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("As a user I will enter invalid username and valid password home page should not display", "Optional...)</span>
-                <span class="method-start">1871 ms</span>
+                <span class="method-start">3447 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("As a user I will enter invalid username and password user should not navigate to home page", "Optio...)</span>
+                <span class="method-start">17075 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">runScenario("As a user I will enter invalid username and password user should not navigate to home page", "Optio...)</span>
-                <span class="method-start">1940 ms</span>
+                <span class="method-name">runScenario("As a user I want to create multiple organization and save and verify", "Optional[Organization modul...)</span>
+                <span class="method-start">31867 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("As a user I want to create multiple organization and save and verify", "Optional[Organization modul...)</span>
+                <span class="method-start">31924 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">2140 ms</span>
+                <span class="method-start">31991 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

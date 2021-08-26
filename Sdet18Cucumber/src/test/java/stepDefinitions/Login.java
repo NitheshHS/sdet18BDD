@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
+import hook.Hook;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -46,7 +47,7 @@ public class Login {
 
 	@Then("Also I will verify that Home Page title")
 	public void also_i_will_verify_that_home_page_title() {
-	   Assert.assertEquals("Administrator - Home - vtiger CRM 5 - Commercial Open Source CRM", driver.getTitle(),
+	   Assert.assertEquals(" Administrator - Home - vtiger CRM 5 - Commercial Open Source CRM", driver.getTitle(),
 			   "Comapring the title page");
 	   driver.close();
 	}
